@@ -12,7 +12,8 @@ class className extends JobRouter\Engine\Runtime\PhpFunction\BoxActionFunction
             $processid = $step->getProcessId();
             $stepid    = $step->getStepId();
             //$stepid    = $this->getStepIds();
-            $jobDB = $this->getJobDB();
+            // $jobDB = $this->getJobDB(); 
+            // to be deleted, redundant
 
         }
         return true;

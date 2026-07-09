@@ -13,6 +13,7 @@ function Onload()
        
     }else{
         alert('I am NOT in the simulator ' + window.location.href.indexOf("jrsimulation"));
+        // This will alert when we aren't in the simulator.
     }
    
 }
